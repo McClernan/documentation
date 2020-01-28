@@ -26,7 +26,9 @@ element, because different types of widgets use different data.
 [https://support.google.com/blogger/answer/47270?hl=en](https://support.google.com/blogger/answer/47270?hl=en)
 
 ## HTML & JavaScript ##
+
 ### ON BLOG LOAD ###
+
 When the blog loads, the function tempfavorites() sends the name of a cookie -
 if the cookie exists a loop examines existing blog post IDs and compares them
 to the existing cookie values. If there is a match, the check box associated with
