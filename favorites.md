@@ -1,8 +1,11 @@
 # BLOGGER.COM TEMPLATE FAVORITES GADGET #
 
-The Favorites Gadget was created in response to a NYCPlaywrights.org web site user
-request for functionality that would allow users to tag individual blog posts as favorites
-so that the user could easily find them later. A sample of the Favorites Gadget prototype be seen at [https://plays2019.blogspot.com](https://plays2019.blogspot.com)
+## REQUIREMENT ##
+
+Allow users to tag individual blog posts as favorites
+so the user can easily find them later. No login required.
+
+A sample of the Favorites Gadget prototype be seen at [https://plays2019.blogspot.com](https://plays2019.blogspot.com)
 
 ## New Gadget Needed ##
 
