@@ -84,7 +84,7 @@ completed cookie is insert in between `<DIV>` tags and displayed as text.
 
 ```
 function arrcookie(cname) {
-```var arr = [];
+~~~var arr = [];
 var L1 = document.getElementsByName('lurl');
 var L2 = document.getElementsByName('ltitle');
 var L3 = document.getElementsByName('postid');
