@@ -95,8 +95,7 @@ function arrcookie(cname) {
    var L3 = document.getElementsByName('postid');
    var x = document.getElementsByName('getme');
    
-   for(var i = 0; i <x.length; i++)
-      {
+   for(var i = 0; i <x.length; i++){
          if (x[i].checked) {
          arr.push("<li><a href= '" +
          L1[i].innerHTML + "'>" + L2[i].innerHTML
