@@ -84,31 +84,31 @@ completed cookie is insert in between `<DIV>` tags and displayed as text.
 
 ```
 function arrcookie(cname) {
-~~~var arr = [];
-var L1 = document.getElementsByName('lurl');
-var L2 = document.getElementsByName('ltitle');
-var L3 = document.getElementsByName('postid');
-var x = document.getElementsByName('getme');
-for(var i = 0; i <x.length; i++)
-{
-if (x[i].checked) {
-arr.push("<li><a href= '" +
-L1[i].innerHTML + "'>" + L2[i].innerHTML
-+ "</a><span id='" + L3[i].innerHTML +
-"'></span></li>");
-}
-}
-if(arr.length !=""){
-setCookie(cname,arr,365);
-c = getCookie(cname);
-txt = c.replace(/,/g,"");
-} else {
-setCookie(cname,'',1);
-txt = "<a href='whatis.html'>What is a
-favorite?</a>";
-}
-document.getElementById('thefaves').innerHTML
-= txt;
+   var arr = [];
+   var L1 = document.getElementsByName('lurl');
+   var L2 = document.getElementsByName('ltitle');
+   var L3 = document.getElementsByName('postid');
+   var x = document.getElementsByName('getme');
+   for(var i = 0; i <x.length; i++)
+   {
+      if (x[i].checked) {
+      arr.push("<li><a href= '" +
+      L1[i].innerHTML + "'>" + L2[i].innerHTML
+      + "</a><span id='" + L3[i].innerHTML +
+      "'></span></li>");
+      }
+    }
+    if(arr.length !=""){
+    setCookie(cname,arr,365);
+    c = getCookie(cname);
+    txt = c.replace(/,/g,"");
+      } else {
+      setCookie(cname,'',1);
+      txt = "<a href='whatis.html'>What is a
+      favorite?</a>";
+      }
+    document.getElementById('thefaves').innerHTML
+    = txt;
 }
 ```
 ## ISSUE ##
