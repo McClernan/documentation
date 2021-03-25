@@ -84,7 +84,7 @@ style='visibility:hidden'><data:post.id/></label>
 ## ONCHANGE ##
 The checkbox tag contains an onchange javascript function called arrcookie() which
 takes the name of a cookie. The script adds the data post title, url and id to an array
-and the arry is inserted, with HTML tag formatting, into the named cookie. The
+and the array is inserted, with HTML tag formatting, into the named cookie. The
 completed cookie is insert in between `<DIV>` tags and displayed as text.
 
 ```
