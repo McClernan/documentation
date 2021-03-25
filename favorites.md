@@ -3,9 +3,9 @@
 ## REQUIREMENT ##
 
 Allow users to tag individual blog posts as favorites
-so the user can easily find them later. No login required.
+so they can easily find them later. No login required.
 
-A sample of the Favorites Gadget prototype be seen at [https://plays2019.blogspot.com](https://plays2019.blogspot.com)
+A sample of the Favorites Gadget prototype can be seen at [https://plays2019.blogspot.com](https://plays2019.blogspot.com)
 
 ## New Gadget Needed ##
 
