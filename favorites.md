@@ -24,6 +24,7 @@ to include specific pieces of data in a blogger template.
 They will all be formatted as `<data:name/>` or `<data:name1.name2/>`, where name
 is the name of the particular piece of data you want to use. In the name1.name2
 example, name2 is a particular item within a set of data called name1, e.g. photo.url.
+
 This is a master list of all such available data. It is divided into sections by page
 element, because different types of widgets use different data.
 [https://support.google.com/blogger/answer/47270?hl=en](https://support.google.com/blogger/answer/47270?hl=en)
