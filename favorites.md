@@ -1,5 +1,7 @@
 # BLOGGER.COM TEMPLATE FAVORITES GADGET #
 
+|API VERSION|
+
 ## REQUIREMENT ##
 
 Allow users to tag individual blog posts as favorites
